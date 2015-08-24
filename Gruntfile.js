@@ -4,7 +4,8 @@
 var _ = require('lodash');
 var path = require('path');
 var cordovaCli = require('cordova');
-var spawn = require('child_process').spawn;
+//var spawn = require('child_process').spawn;
+var spawn = require('win-spawn');
 var exec = require('child_process').exec;
 
 module.exports = function (grunt) {
@@ -51,7 +52,7 @@ module.exports = function (grunt) {
             name: 'development',
             debug: true,
             // Test user access token
-            accessToken: 'f6d0dc46-d66f-45f9-a7e7-4c1be175a08d',
+            accessToken: '7c8c8a48-bf32-4021-8a91-f4c1e59eaadb',
             api: 'http://dev.cnodejs.org/api/v1'
           }
         }
